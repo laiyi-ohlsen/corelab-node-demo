@@ -5,7 +5,7 @@ app.use(express.json())
 
 const port = process.env.PORT || 3001
 
-app.get('/about', (req, res) => {
+app.get('/', (req, res) => {
     res.json({ data: "response goes here" })
 })
 
